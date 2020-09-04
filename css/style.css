@@ -1,0 +1,8 @@
+.banner-top-wrap{
+    overflow-x: hidden;
+}
+.banner-top-wrap .top-ornament{
+    position: absolute;
+    right: -23px;
+    top: 0px;
+}
