@@ -1,8 +1,36 @@
 .banner-top-wrap{
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .banner-top-wrap .top-ornament{
     position: absolute;
     right: -23px;
     top: 0px;
+    z-index: 4;
+}
+.banner-top-wrap .line-ornament{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.how-to-drink{
+    background-image: url(../images/bg-how-to-drink-04.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 868px;
+}
+.how-to-drink .img-title{
+    position: absolute;
+    right: 2.8rem;
+    top: -0.8rem;
+}
+.how-to-drink .img-content{
+    margin-top: 10rem;
+}
+.choose-your-flavor{
+    background-image: url(../images/background-choose-your-flavor-06.png);
+    background-position: center;
+    padding: 300px 0;
 }
