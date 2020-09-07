@@ -1,3 +1,64 @@
+body{
+    transition: all .3s;
+    letter-spacing: 0.2px;;
+}
+*{
+    transition: all .3s;
+}
+@font-face{
+    font-family: "LondrinaSolid Regular";
+    src: url(LondrinaSolid-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family: "Montserrat Regular";
+    src: url(Montserrat-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family: "Montserrat Bold";
+    src: url(Montserrat-Bold.ttf) format("truetype");
+}
+.font-montserrat-bold{
+    font-family: "Montserrat Bold";
+}
+h1, h2, h3, h4, h5, h6{font-family: "LondrinaSolid Regular";}
+p,a,label,th,td,li{
+    font-family: "Montserrat Regular";
+    font-size :  14px !important;
+    line-height : 24px;
+}
+/* Colors */
+.text-blue{
+    color: #0c59d4;
+}
+.text-gray{
+    color: #5b5b5b;
+}
+.text-orange{
+    color: #fa6b29;
+}
+.text-light-blue{
+    color: #4fb4fe;
+}
+/* Size */
+.font-h1{
+    font-size: 2.5rem;
+}
+.font-4rem{
+    font-size: 4rem;
+}
+.font-3rem{
+    font-size: 3rem;
+}
+/* Nav */
+.nav-fuko{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    transition: all .5s;
+    background-image: url(../images/bg-menu-04.png);
+    height: 100px;
+}
+/* Page Setup */
 .banner-top-wrap{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -15,22 +76,96 @@
     left: 0;
     width: 100%;
 }
-.how-to-drink{
-    background-image: url(../images/bg-how-to-drink-04.jpg);
+.content-all-bg{
+    background-image: url(../images/background-wrapper-04.jpg);
     background-size: cover;
-    background-position: bottom;
-    height: 868px;
+    background-repeat: no-repeat;
+
 }
-.how-to-drink .img-title{
+.how-to-drink{
+    padding-bottom: 100px;
+}
+.how-to-drink .ornament-rumah{
     position: absolute;
-    right: 2.8rem;
-    top: -0.8rem;
+    top: -240px;
+    z-index: 4;
+    left: 0
 }
 .how-to-drink .img-content{
     margin-top: 10rem;
 }
+.how-to-drink .content-step{
+    padding: 6rem 8rem 10rem 5rem;
+}
 .choose-your-flavor{
-    background-image: url(../images/background-choose-your-flavor-06.png);
-    background-position: center;
-    padding: 300px 0;
+    padding-top: 8.8rem;
+    padding-bottom: 6.3rem;
+}
+.wrap-content-flavor{
+    padding: 4rem 0;
+}
+.carousel-flavor .owl-prev{
+    position: absolute;
+    top: 0;
+    left: 10rem;
+}
+.carousel-flavor .owl-next{
+    position: absolute;
+    top: 0;
+    right: 10rem;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+    background: transparent;
+}
+.wrapper-button-flavor{
+    background-color: #f8df00;
+    width: 590px;
+    margin: auto;
+    padding: 1rem 0 1rem;
+    border-radius: 10rem;
+    -webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.5);
+}
+.mt-min-1rem{
+    margin-top: -1rem;
+}
+.what-you-know{
+    padding: 10rem 0 1.3rem;
+}
+.what-you-know .left-desc{
+    padding: 8.1rem 0;
+}
+.testimonial{
+    padding-top: 7rem;
+}
+.testimonial .play-button{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.what-you-know .ornament-before::before {
+    content: '';
+    width: 65px;
+    display: block;
+    height: 44px;
+    background-image: url(../images/ornament-yellow-letter-before-20.png);
+    margin-bottom: -14px;
+    margin-left: -32px;
+}
+.footer{
+    background-image: url(../images/footer-bg-25.jpg);
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.footer .ornament-before::before {
+    content: '';
+    width: 51px;
+    display: block;
+    height: 35px;
+    background-image: url(../images/ornament-yellow-letter-before-footer-26.png);
+    margin-bottom: -14px;
+    margin-left: -32px;
 }
