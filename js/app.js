@@ -28,6 +28,28 @@ $(document).ready(function() {
        }
      }
    })
+   $('.carousel-know').addClass('owl-carousel owl-theme').owlCarousel({
+    loop: true,
+    responsiveClass: true,
+    navText: ["<img src='images/chevron-left.png'>","<img src='images/chevron-right.png'>"],
+    responsive:{
+      0: {
+        items: 1,
+        dots: true,
+        nav: false
+      },
+      600: {
+        items: 1,
+        dots: true,
+        nav: false
+      },
+      1000: {
+        items: 1,
+        dots: false,
+        nav: false
+      }
+    }
+  })
    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
