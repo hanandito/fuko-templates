@@ -23,7 +23,7 @@ body{
 h1, h2, h3, h4, h5, h6{font-family: "LondrinaSolid Regular";}
 p,a,label,th,td,li{
     font-family: "Montserrat Regular";
-    font-size :  14px !important;
+    font-size :  14px;
     line-height : 24px;
 }
 /* Colors */
@@ -64,13 +64,30 @@ p,a,label,th,td,li{
     background-position: left;
     position: fixed;
     z-index: 10;
-    right: 0;
+    right: -400px;
     height: 100vh;
     width: 400px;
 }
+.side-menu.active{
+    right: 0;
+}
 .side-menu .wrap-menu ul{
     list-style: none;
-    padding-left: 0;
+    padding-left: 70px;
+}
+.side-menu .wrap-menu ul li{
+    padding: 15px 0;
+}
+.side-menu .wrap-menu ul li a{
+    color: #0c59d4;
+    font-family: "LondrinaSolid Regular";
+    font-size: 38px;
+    transition: all .3s;
+}
+.side-menu .wrap-menu ul li a:hover{
+    color: #000;
+    border-bottom: 4px solid #fff;
+    text-decoration: none;
 }
 /* Page Setup */
 .banner-top-wrap{

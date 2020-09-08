@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    $('.nav-birthday-2 .fa-bars').click(function() {
-     $(".side-nav").addClass("active");
+    $('.nav-fuko .menu-icon').click(function() {
+     $(".side-menu").addClass("active");
    })
-   $('.close-div .fa-times, .side-nav li').click(function() {
-     $(".side-nav").removeClass("active");
+   $('.button-close, .side-menu li a').click(function() {
+     $(".side-menu").removeClass("active");
    })
 //    Do me a Favor
  $('.carousel-flavor').addClass('owl-carousel owl-theme').owlCarousel({
@@ -42,7 +42,7 @@ $(document).ready(function() {
  })
  $(document).ready(function(){
    // Add smooth scrolling to all links
-   $(".nav-birthday-2 a, .how-to-drink a, .testimonial a").on('click', function(event) {
+   $(".nav-birthday-2 a, .how-to-drink a, .testimonial a img").on('click', function(event) {
  
      // Make sure this.hash has a value before overriding default behavior
      if (this.hash !== "") {
