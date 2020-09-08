@@ -58,6 +58,20 @@ p,a,label,th,td,li{
     background-image: url(../images/bg-menu-04.png);
     height: 100px;
 }
+.side-menu{
+    background-image: url(../images/side-menu-bg-06.jpg);
+    background-size: cover;
+    background-position: left;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    height: 100vh;
+    width: 400px;
+}
+.side-menu .wrap-menu ul{
+    list-style: none;
+    padding-left: 0;
+}
 /* Page Setup */
 .banner-top-wrap{
     overflow-x: hidden;
