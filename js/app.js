@@ -31,7 +31,7 @@ $(document).ready(function() {
    $('.carousel-know').addClass('owl-carousel owl-theme').owlCarousel({
     loop: true,
     responsiveClass: true,
-    navText: false,
+    nav: false,
     responsive:{
       0: {
         items: 1,
