@@ -109,9 +109,8 @@ p,a,label,th,td,li{
 }
 .content-all-bg{
     background-image: url(../images/background-wrapper-04.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-
 }
 .how-to-drink{
     padding-bottom: 100px;
@@ -168,7 +167,7 @@ p,a,label,th,td,li{
     padding: 8.1rem 0;
 }
 .testimonial{
-    padding-top: 7rem;
+    padding-top: 3.2rem;
 }
 .testimonial .play-button{
     position: absolute;
