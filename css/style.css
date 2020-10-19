@@ -53,7 +53,7 @@ p,a,label,th,td,li{
 .nav-fuko{
     position: fixed;
     top: 0;
-    z-index: 3;
+    z-index: 100;
     transition: all .5s;
     /*background-image: url(../images/bg-menu-04.png);*/
     height: 100px;
@@ -124,9 +124,10 @@ p,a,label,th,td,li{
     background-position: top;
 }
 .parallaxed-all-bg{
-    background-image: url(../images/background-parallaxed-04-07-07-07.png);
+    background-image: url(../images/background-parallaxed-FIXED-01.png);
     background-repeat: no-repeat;
     background-position: top;
+    background-size: cover;
 }
 .how-to-drink{
     padding-bottom: 100px;
@@ -162,6 +163,31 @@ p,a,label,th,td,li{
 }
 .owl-theme .owl-nav [class*="owl-"]:hover{
     background: transparent;
+}
+.fuko-bottle{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 6.1rem;
+	float: right;
+	right: 29.4%;
+	z-index: 2;
+	margin-top: 10rem;
+	margin-bottom: 10rem;
+}
+.chevron-down-banner-top{
+	width: 40px;
+}
+.cube-1{
+	position: absolute;
+	z-index: 3;
+}
+.hand-1{
+	position: absolute;
+	z-index: 3;
+}
+.last-hand{
+	position: absolute;
+	z-index: 3;
 }
 .wrapper-button-flavor{
     background-color: #f8df00;
