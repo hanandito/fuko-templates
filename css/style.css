@@ -151,6 +151,12 @@ p,a,label,th,td,li{
 .wrap-content-flavor{
     padding: 4rem 0;
 }
+.carousel-flavor .owl-item.active .title-flavor{
+	display: none;
+}
+.carousel-flavor .owl-item.active:nth-child(2) .title-flavor{
+	display: block;
+}
 .carousel-flavor .owl-prev{
     position: absolute;
     top: 0;
