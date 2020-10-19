@@ -55,8 +55,14 @@ p,a,label,th,td,li{
     top: 0;
     z-index: 3;
     transition: all .5s;
-    background-image: url(../images/bg-menu-04.png);
+    /*background-image: url(../images/bg-menu-04.png);*/
     height: 100px;
+}
+.nav-fuko .bg-logo-nav{
+	background-image: url(../images/fuko-logo-new-07.png);
+	height: 102px;
+	width: 150px;
+	background-size: contain;
 }
 .side-menu{
     background-image: url(../images/side-menu-bg-06.jpg);
