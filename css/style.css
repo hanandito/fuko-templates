@@ -154,8 +154,8 @@ p,a,label,th,td,li{
 .carousel-flavor .owl-stage-outer .owl-stage .owl-item .title-flavor{
 	display: none;
 }
-.carousel-flavor .owl-stage-outer .owl-stage .owl-item .title-flavor{
-	display: none;
+.carousel-flavor .owl-stage-outer .owl-stage .owl-item.active.center .title-flavor{
+	display: block;
 }
 .carousel-flavor .owl-stage, .carousel-flavor .owl-stage-outer{
 	transition: all .6s ease-in-out;
@@ -171,12 +171,12 @@ p,a,label,th,td,li{
 }
 .carousel-flavor .owl-prev{
     position: absolute;
-    top: 0;
+    top: 30px;
     left: 10rem;
 }
 .carousel-flavor .owl-next{
     position: absolute;
-    top: 0;
+    top: 30px;
     right: 10rem;
 }
 .owl-theme .owl-nav [class*="owl-"]:hover{
