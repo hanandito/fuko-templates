@@ -8,6 +8,8 @@ $(document).ready(function() {
 //    Do me a Favor
  $('.carousel-flavor').addClass('owl-carousel owl-theme').owlCarousel({
      loop: true,
+     margin: 100,
+     center: true,
      responsiveClass: true,
      navText: ["<img src='images/chevron-left.png'>","<img src='images/chevron-right.png'>"],
      responsive:{

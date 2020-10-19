@@ -1,3 +1,11 @@
+.car-wrapper{
+  width:100%;
+  
+}
+.carousel{
+  /*background: red;*/
+}
+
 .carousel .item {
 	display: block;
 	position: absolute;
@@ -6,6 +14,12 @@
 	-o-transform: scale(0.5);
 	transform: scale(0.5);
 }
+
+.carousel .item:not(.active){
+  background:red;
+  overflow:hidden;
+}
+
 
 .carousel .item.active {
 	-webkit-transform: scale(1);
@@ -19,4 +33,20 @@
 	-moz-transition: all 0.35s ease;
 	-o-transition: all 0.35s ease;
     transition: all 0.35s ease;
+}
+
+.carousel .item.active{
+  height:400px;
+  width: 600px;
+  overflow:hidden;
+}
+
+.carousel .item:not(.active) {
+    /*background: red;*/
+    height: 300px;
+    width: 600px;
+}
+
+.carousel img{
+  width:100%;
 }
