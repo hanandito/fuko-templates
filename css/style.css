@@ -179,6 +179,12 @@ p,a,label,th,td,li{
     top: 30px;
     right: 10rem;
 }
+.carousel-flavor.owl-theme .owl-dots .owl-dot span{
+	background: #2c4199 !important;
+}
+.carousel-flavor.owl-theme .owl-dots .owl-dot.active span, .carousel-flavor.owl-theme .owl-dots .owl-dot:hover span{
+	background: #f8df00 !important;
+}
 .modal-flavor-bg{
 	background-image: url(../images/popup-bg-07.png);
 	background-color: transparent;
@@ -277,8 +283,16 @@ p,a,label,th,td,li{
     margin-left: -32px;
 }
 @media screen and (max-width: 846px) {
+	p, a, label, th, td, li {
+	    font-family: "Montserrat Regular";
+	    font-size: 10px;
+	    line-height: 24px;
+	}
+	.font-h1 {
+    	font-size: 1.7rem;
+	}
 	.font-4rem {
-    		font-size: 3rem;
+    		font-size: 2.7rem;
 	}
 	.nav-fuko .bg-logo-nav {
 		max-width: 100%;
@@ -304,5 +318,28 @@ p,a,label,th,td,li{
 	}
 	.parallaxed-all-bg{
 		background-image: url(../images/background-wrapper-mobile-04-01.jpg);
+	}
+	.choose-your-flavor {
+	    padding-top: 14.4rem;
+	    padding-bottom: 6.3rem;
+	}
+	.wrapper-button-get{
+		width: 230px;
+	}
+	.arrow-carousel-flavor{
+		width: 60%;
+	}
+	.modal-flavor-bg{
+		background-image: url(../images/popup-bg-mobile-05.png);
+	}
+	.carousel-flavor .border-yellow{
+		width: 130px !important;
+	}
+	.carousel-know .border-yellow{
+		width: 205px !important;
+	}
+	.testimonial {
+	    padding-top: 11.1rem;
+	    padding-bottom: 3.2rem;
 	}
 }
