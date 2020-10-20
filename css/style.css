@@ -149,7 +149,7 @@ p,a,label,th,td,li{
     padding-bottom: 6.3rem;
 }
 .wrap-content-flavor{
-    padding: 4rem 0;
+    padding: 1rem 0;
 }
 .carousel-flavor .owl-stage-outer .owl-stage .owl-item .title-flavor{
 	display: none;
@@ -178,6 +178,13 @@ p,a,label,th,td,li{
     position: absolute;
     top: 30px;
     right: 10rem;
+}
+.modal-flavor-bg{
+	background-image: url(../images/popup-bg-07.png);
+	background-color: transparent;
+	border: none;
+	padding: 100px 0 70px;
+	background-repeat: no-repeat;
 }
 .owl-theme .owl-nav [class*="owl-"]:hover{
     background: transparent;
