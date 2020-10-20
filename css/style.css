@@ -294,6 +294,22 @@ p,a,label,th,td,li{
 .link-2.active{
 	display:block;
 }
+.carousel-know.owl-theme .owl-dots .owl-dot.active span, .carousel-know.owl-theme .owl-dots .owl-dot:hover span{
+	background: #fff !important;
+}
+.carousel-know.owl-theme .owl-dots .owl-dot span{
+	background: #f8df00 !important;
+}
+.carousel-know.owl-theme .owl-nav .owl-prev{
+	position: absolute;
+	left: 40%;
+	bottom: -20px;
+}
+.carousel-know.owl-theme .owl-nav .owl-next{
+	position: absolute;
+	right: 40%;
+	bottom: -20px;
+}
 @media screen and (max-width: 846px) {
 	p, a, label, th, td, li {
 	    font-family: "Montserrat Regular";

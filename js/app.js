@@ -39,7 +39,7 @@ $(document).ready(function() {
    $('.carousel-know').addClass('owl-carousel owl-theme').owlCarousel({
     loop: true,
     responsiveClass: true,
-    nav: false,
+    nav: true,
     responsive:{
       0: {
         items: 1,
@@ -53,8 +53,8 @@ $(document).ready(function() {
       },
       1000: {
         items: 1,
-        dots: false,
-        nav: false
+        dots: true,
+         navText: ["<img src='images/chevron-left.png'>","<img src='images/chevron-right.png'>"],
       }
     }
   })
