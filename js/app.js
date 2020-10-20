@@ -53,6 +53,28 @@ $(document).ready(function() {
       }
     }
   })
+   $('.carousel-mobile-how').addClass('owl-carousel owl-theme').owlCarousel({
+    loop: true,
+    responsiveClass: true,
+    nav: false,
+    responsive:{
+      0: {
+        items: 1,
+        dots: true,
+        nav: false
+      },
+      600: {
+        items: 1,
+        dots: true,
+        nav: false
+      },
+      1000: {
+        items: 1,
+        dots: false,
+        nav: false
+      }
+    }
+  })
    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
