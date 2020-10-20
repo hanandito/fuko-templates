@@ -41,7 +41,7 @@ p,a,label,th,td,li{
 }
 /* Size */
 .font-h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .font-4rem{
     font-size: 4rem;
@@ -283,6 +283,15 @@ p,a,label,th,td,li{
     background-image: url(../images/ornament-yellow-letter-before-footer-26.png);
     margin-bottom: -14px;
     margin-left: -32px;
+}
+.link-1.active{
+	display: none;
+}
+.link-2{
+	display: none;
+}
+.link-2.active{
+	display:block;
 }
 @media screen and (max-width: 846px) {
 	p, a, label, th, td, li {

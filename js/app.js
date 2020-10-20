@@ -5,6 +5,10 @@ $(document).ready(function() {
    $('.button-close, .side-menu li a').click(function() {
      $(".side-menu").removeClass("active");
    })
+   $('.link-1').click(function() {
+     $(".link-1").addClass("active");
+      $(".link-2").addClass("active");
+   })
 //    Do me a Favor
  $('.carousel-flavor').addClass('owl-carousel owl-theme').owlCarousel({
      loop: true,
