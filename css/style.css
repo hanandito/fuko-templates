@@ -326,7 +326,7 @@ p,a,label,th,td,li{
 		background-image: url(../images/background-wrapper-mobile-04-01.jpg);
 	}
 	.choose-your-flavor {
-	    padding-top: 14.4rem;
+	    padding-top: 21.4rem;
 	    padding-bottom: 6.3rem;
 	}
 	.wrapper-button-get{
@@ -370,5 +370,8 @@ p,a,label,th,td,li{
 	}
 	.footer .border-yellow{
 		width: 190px;
+	}
+	.what-you-know {
+    	padding: 11rem 0 1.3rem;
 	}
 }
