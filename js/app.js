@@ -61,7 +61,7 @@ $(document).ready(function() {
     responsive:{
       0: {
         items: 1,
-        dots: true,
+        dots: false,
         nav: false
       },
       600: {
@@ -77,16 +77,16 @@ $(document).ready(function() {
     }
   })
    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
-    } else {
-        document.getElementById("navbar").style.top = "-120px";
-    }
-    prevScrollpos = currentScrollPos;
-    }
+    // var prevScrollpos = window.pageYOffset;
+    // window.onscroll = function() {
+    // var currentScrollPos = window.pageYOffset;
+    // if (prevScrollpos > currentScrollPos) {
+    //     document.getElementById("navbar").style.top = "0";
+    // } else {
+    //     document.getElementById("navbar").style.top = "-120px";
+    // }
+    // prevScrollpos = currentScrollPos;
+    // }
  })
  $(document).ready(function(){
    // Add smooth scrolling to all links
