@@ -170,6 +170,7 @@ p,a,label,th,td,li{
 .carousel-flavor .owl-stage-outer .owl-stage .owl-item.active.center{
 	transform: scale(1.5);
 	transition: all .6s ease-in-out;
+	padding-bottom: 76px;
 }
 .carousel-flavor .owl-prev{
     position: absolute;
