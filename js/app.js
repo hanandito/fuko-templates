@@ -112,3 +112,25 @@ $(document).ready(function() {
      } // End if
    });
  });
+ /*Animation motif*/
+$(document).ready(function(){
+
+  $(window).scroll(function(){
+    windowTop = $(window).scrollTop();
+
+    $('.move-right').css({
+      'transform':'translateX('+(windowTop) * 0.1  +'px)'
+    });
+
+    $('.move-left').css({
+      'transform':'translateX('+(windowTop) * -0.1 +'px)'
+    });
+
+    $('.move-top').css({
+      'transform':'translateY('+(windowTop) * -0.1 +'px)'
+    });
+    $('.move-topcontact').css({
+      'transform':'translateY('+(windowTop) * -0.1 +'px)'
+    });
+  });
+});
