@@ -276,3 +276,33 @@ p,a,label,th,td,li{
     margin-bottom: -14px;
     margin-left: -32px;
 }
+@media screen and (max-width: 846px) {
+	.font-4rem {
+    		font-size: 3rem;
+	}
+	.nav-fuko .bg-logo-nav {
+		max-width: 100%;
+		height: 83px;
+	}
+	.how-to-drink .ornament-rumah {
+	    position: absolute;
+	    top: -100px;
+	    z-index: 4;
+	    left: 0;
+	    width: 230px;
+	}
+	.chevron-down-banner-top {
+	    width: 28px;
+	    position: relative;
+	    z-index: 4;
+	}
+	.what-you-know .left-desc {
+    	padding: 0 0;
+	}
+	.content-all-bg {
+		background-image: none;
+	}
+	.parallaxed-all-bg{
+		background-image: url(../images/background-wrapper-mobile-04-01.jpg);
+	}
+}
