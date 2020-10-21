@@ -445,7 +445,8 @@ padding-bottom: 6.2rem;
 	}
 	.footer{
 		background-image: url(../images/footer-bg-mobile-05.jpg);
-		background-size: contain;
+		background-size: cover;
+		padding-bottom: 0;
 	}
 	.footer .border-yellow{
 		width: 190px;
