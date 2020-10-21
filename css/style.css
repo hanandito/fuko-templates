@@ -463,6 +463,10 @@ a.menu-icon img:hover{
 	.carousel-know.owl-theme .owl-nav.disabled + .owl-dots {
     	margin-top: 0;
 	}
+	.modal-flavor-bg .mr-5.button-times {
+	    position: absolute;
+	    right: 8px;
+	}
 }
 
 .matahari{
