@@ -347,8 +347,7 @@ a.menu-icon img:hover{
 .link-2.active{
 	display:block;
 }
-.carousel-know.owl-theme .owl-dots .owl-dot.active span, .carousel-know.owl-theme .owl-dots .owl-dot:hover span
-.carousel-mobile-how.owl-theme .owl-dots .owl-dot.active span, .carousel-mobile-how.owl-theme .owl-dots .owl-dot:hover span, {
+.carousel-know.owl-theme .owl-dots .owl-dot.active span, .carousel-know.owl-theme .owl-dots .owl-dot:hover span, .carousel-mobile-how.owl-theme .owl-dots .owl-dot.active span, .carousel-mobile-how.owl-theme .owl-dots .owl-dot:hover span {
 	background: #fff !important;
 }
 .carousel-know.owl-theme .owl-dots .owl-dot span, .carousel-mobile-how.owl-theme .owl-dots .owl-dot span{
