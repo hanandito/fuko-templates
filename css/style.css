@@ -440,8 +440,8 @@ a.menu-icon img:hover{
 		width: 205px !important;
 	}
 	.testimonial {
-	    padding-top: 15.1rem;
-		padding-bottom: 6.2rem;
+	    padding-top: 20.1rem;
+		padding-bottom: 7.2rem;
 	}
 	.footer{
 		background-image: url(../images/footer-bg-mobile-05.jpg);
@@ -466,6 +466,9 @@ a.menu-icon img:hover{
 	.modal-flavor-bg .mr-5.button-times {
 	    position: absolute;
 	    right: 8px;
+	}
+	.go-top img{
+		width: 40px;
 	}
 }
 
