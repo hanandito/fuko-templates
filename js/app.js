@@ -93,7 +93,7 @@ $(document).ready(function() {
  })
  $(document).ready(function(){
    // Add smooth scrolling to all links
-   $(".nav-fuko a, .how-to-drink a, .testimonial a img").on('click', function(event) {
+   $(".side-menu a, .how-to-drink a, .testimonial a").on('click', function(event) {
  
      // Make sure this.hash has a value before overriding default behavior
      if (this.hash !== "") {
