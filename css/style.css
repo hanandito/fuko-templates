@@ -474,7 +474,7 @@ a.menu-icon img:hover{
 .bulan{
 	position: absolute;
 	z-index: 3;
-	top: 20.7rem;
+	top: 15rem;
 	left: 0;
 	transform: translateY(-50%);
 }
