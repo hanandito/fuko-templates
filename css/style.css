@@ -29,6 +29,9 @@ p,a,label,th,td,li{
 a:hover{
 	text-decoration: none;
 }
+a .text-blue:hover{
+	color: #072351;
+}
 /* Colors */
 .text-blue{
     color: #0c59d4;
