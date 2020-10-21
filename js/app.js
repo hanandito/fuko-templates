@@ -13,7 +13,6 @@ $(document).ready(function() {
  $('.carousel-flavor').addClass('owl-carousel owl-theme').owlCarousel({
      loop: true,
      center: true,
-     responsiveClass: true,
      navText: ["<img src='images/chevron-left.png'>","<img src='images/chevron-right.png'>"],
      responsive:{
        0: {
@@ -29,7 +28,7 @@ $(document).ready(function() {
          nav: false
        },
        1000: {
-         margin: 100,
+         margin: 50,
          items: 3,
          dots: false,
          nav: true
@@ -116,7 +115,7 @@ $(document).ready(function() {
      } // End if
    });
  });
- /*Animation motif*/
+ /*Animation: Moving Ornament on Scroll*/
 $(document).ready(function(){
 
   $(window).scroll(function(){
