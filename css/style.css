@@ -1,6 +1,6 @@
 body{
     transition: all .3s;
-    letter-spacing: 0.2px;;
+    letter-spacing: 0.2px;
 }
 *{
     transition: all .3s;
@@ -230,9 +230,9 @@ a:hover{
 .fuko-bottle{
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
-	top: 6.1rem;
+	top: 19rem;
 	float: right;
-	right: 29.4%;
+	right: 30%;
 	z-index: 2;
 	margin-top: 10rem;
 	margin-bottom: 10rem;
@@ -276,7 +276,7 @@ a:hover{
     margin-top: -1rem;
 }
 .what-you-know{
-    padding: 9rem 0 1.3rem;
+    padding: 1rem 0 1.3rem;
 }
 .what-you-know .left-desc{
     padding: 0;
@@ -434,6 +434,33 @@ a:hover{
 		width: 190px;
 	}
 	.what-you-know {
-    	padding: 11rem 0 1.3rem;
+    	padding: 14rem 0 1.3rem;
 	}
+	.carousel-flavor .owl-item.active, .carousel-flavor .owl-item {
+    	padding: 70px 0 174px;
+	}
+	.carousel-flavor .owl-item.active:not(.center) .img-content{
+		width: 100% !important;
+	}
+}
+
+.matahari{
+	position: absolute;
+	z-index: 3;
+	top: 90rem;
+	left: 0;
+	transform: translateY(-50%);
+}
+.bulan{
+	position: absolute;
+	z-index: 3;
+	top: 3rem;
+	left: -300px;
+	transform: translateY(-50%);
+}
+/*
+Animation
+*/
+.move-right, .move-left, .move-top{
+	transition: none;
 }

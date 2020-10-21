@@ -16,7 +16,7 @@ $(document).ready(function() {
      navText: ["<img src='images/chevron-left.png'>","<img src='images/chevron-right.png'>"],
      responsive:{
        0: {
-        margin: 40,
+          margin: 40,
          stagePadding: 10,
          items: 2,
          dots: true,
