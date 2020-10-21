@@ -9,6 +9,10 @@ $(document).ready(function() {
      $(".link-1").addClass("active");
       $(".link-2").addClass("active");
    })
+   $('.link-2').click(function() {
+     $(".link-2").removeClass("active");
+      $(".link-1").removeClass("active");
+   })
 //    Do me a Favor
  $('.carousel-flavor').addClass('owl-carousel owl-theme').owlCarousel({
      loop: true,
