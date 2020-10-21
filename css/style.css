@@ -472,6 +472,9 @@ a.menu-icon img:hover{
 	.go-top img{
 		width: 40px;
 	}
+	.wrapper-button-flavor.wrapper-mobile{
+		width: 60% !important;
+	}
 }
 
 .matahari{
