@@ -233,7 +233,10 @@ a.menu-icon img:hover{
 }
 .modal-flavor-bg .mr-5.button-times {
     position: absolute;
-    right: 110px;
+    right: 147px;
+}
+.modal-flavor-bg .mr-5.button-times:hover {
+    transform: scale(1.1);
 }
 .owl-theme .owl-nav [class*="owl-"]:hover{
     background: transparent;
