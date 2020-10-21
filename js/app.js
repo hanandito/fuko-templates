@@ -68,7 +68,7 @@ $(document).ready(function() {
     responsive:{
       0: {
         items: 1,
-        dots: false,
+        dots: true,
         nav: false
       },
       600: {
@@ -78,7 +78,7 @@ $(document).ready(function() {
       },
       1000: {
         items: 1,
-        dots: false,
+        dots: true,
         nav: false
       }
     }
