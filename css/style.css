@@ -459,7 +459,7 @@ a .text-blue:hover{
 	position: absolute;
 	z-index: 3;
 	top: 90rem;
-	left: 0;
+	left: -80px;
 	transform: translateY(-50%);
 }
 .bulan{
