@@ -419,8 +419,8 @@ a.menu-icon img:hover{
 	}
 	.modal-flavor-bg .button-times{
 		position: absolute;
-		right: 20px;
-		top: -80px;
+		right: 0;
+		top: 0;
 	}
 	.modal-flavor-bg .img-content{
 		width: 50%;
