@@ -465,7 +465,9 @@ a.menu-icon img:hover{
 	}
 	.modal-flavor-bg .mr-5.button-times {
 	    position: absolute;
-	    right: 8px;
+		right: 19px;
+		width: 40px;
+		top: -10px;
 	}
 	.go-top img{
 		width: 40px;
