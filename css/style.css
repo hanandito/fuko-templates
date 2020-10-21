@@ -166,7 +166,14 @@ p,a,label,th,td,li{
 	transition: all .6s ease-in-out;
 }
 .carousel-flavor .owl-item.active{
-	padding: 100px 0;
+	padding: 90px 0 324px;
+}
+.carousel-flavor .owl-item.active:not(.center) .img-content{
+	width: 85%;
+}
+.carousel-flavor .owl-item.active.center .img-content:hover{
+	transform: scale(1.1);
+	cursor: pointer;
 }
 .carousel-flavor .owl-item{
 	transition: all .6s ease-in-out;
@@ -191,6 +198,12 @@ p,a,label,th,td,li{
 }
 .carousel-flavor.owl-theme .owl-dots .owl-dot.active span, .carousel-flavor.owl-theme .owl-dots .owl-dot:hover span{
 	background: #f8df00 !important;
+}
+.carousel-flavor .owl-item .bg-content{
+	display: none;
+}
+.carousel-flavor .owl-stage-outer .owl-stage .owl-item.active.center .bg-content{
+	display: block
 }
 .modal-flavor-bg{
 	background-image: url(../images/popup-bg-07.png);
