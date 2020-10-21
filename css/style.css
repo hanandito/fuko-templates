@@ -388,7 +388,7 @@ a:hover{
 		background-image: url(../images/background-wrapper-mobile-04-01.jpg);
 	}
 	.choose-your-flavor {
-	    padding-top: 21.4rem;
+	    padding-top: 24.4rem;
 	    padding-bottom: 6.3rem;
 	}
 	.wrapper-button-get{
@@ -437,10 +437,13 @@ a:hover{
     	padding: 14rem 0 1.3rem;
 	}
 	.carousel-flavor .owl-item.active, .carousel-flavor .owl-item {
-    	padding: 70px 0 174px;
+    	padding: 70px 0 186px;
 	}
 	.carousel-flavor .owl-item.active:not(.center) .img-content{
 		width: 100% !important;
+	}
+	.carousel-know.owl-theme .owl-nav.disabled + .owl-dots {
+    	margin-top: 0;
 	}
 }
 
