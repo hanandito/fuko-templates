@@ -154,10 +154,13 @@ p,a,label,th,td,li{
     padding: 1rem 0;
 }
 .carousel-flavor .owl-stage-outer .owl-stage .owl-item .title-flavor{
-	display: none;
+	/*transition: opacity 2.0s ease;*/
+	visibility: hidden;
+	/*opacity: 0;*/
 }
 .carousel-flavor .owl-stage-outer .owl-stage .owl-item.active.center .title-flavor{
-	display: block;
+	visibility: visible;
+	/*opacity: 1;*/
 }
 .carousel-flavor .owl-stage, .carousel-flavor .owl-stage-outer{
 	transition: all .6s ease-in-out;
