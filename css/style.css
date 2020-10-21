@@ -147,7 +147,7 @@ p,a,label,th,td,li{
     padding: 6rem 8rem 10rem 5rem;
 }
 .choose-your-flavor{
-    padding-top: 8.8rem;
+    padding-top: 4rem;
     padding-bottom: 6.3rem;
 }
 .wrap-content-flavor{
@@ -165,15 +165,16 @@ p,a,label,th,td,li{
 .carousel-flavor .owl-stage, .carousel-flavor .owl-stage-outer{
 	transition: all .6s ease-in-out;
 }
+.carousel-flavor .owl-item.active{
+	padding: 100px 0;
+}
 .carousel-flavor .owl-item{
 	transition: all .6s ease-in-out;
 	margin: 0 auto;
-	padding: 100px 0;
 }
 .carousel-flavor .owl-stage-outer .owl-stage .owl-item.active.center{
 	transform: scale(1.5);
 	transition: all .6s ease-in-out;
-	padding-bottom: 76px;
 }
 .carousel-flavor .owl-prev{
     position: absolute;

@@ -28,7 +28,7 @@ $(document).ready(function() {
          nav: false
        },
        1000: {
-         margin: 50,
+         margin: 100,
          items: 3,
          dots: false,
          nav: true
