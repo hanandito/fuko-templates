@@ -405,7 +405,7 @@ a.menu-icon img:hover{
 		background-image: url(../images/background-wrapper-mobile-04-01.jpg);
 	}
 	.choose-your-flavor {
-	    padding-top: 24.4rem;
+	    padding-top: 31.4rem;
 	    padding-bottom: 6.3rem;
 	}
 	.wrapper-button-get{
@@ -440,8 +440,8 @@ a.menu-icon img:hover{
 		width: 205px !important;
 	}
 	.testimonial {
-	    padding-top: 11.1rem;
-	    padding-bottom: 3.2rem;
+	    padding-top: 21.1rem;
+padding-bottom: 6.2rem;
 	}
 	.footer{
 		background-image: url(../images/footer-bg-mobile-05.jpg);
@@ -451,7 +451,7 @@ a.menu-icon img:hover{
 		width: 190px;
 	}
 	.what-you-know {
-    	padding: 14rem 0 1.3rem;
+    	padding: 21rem 0 1.3rem;
 	}
 	.carousel-flavor .owl-item.active, .carousel-flavor .owl-item {
     	padding: 70px 0 186px;
