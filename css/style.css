@@ -26,6 +26,9 @@ p,a,label,th,td,li{
     font-size :  14px;
     line-height : 24px;
 }
+a:hover{
+	text-decoration: none;
+}
 /* Colors */
 .text-blue{
     color: #0c59d4;
@@ -38,6 +41,9 @@ p,a,label,th,td,li{
 }
 .text-light-blue{
     color: #4fb4fe;
+}
+.text-yellow{
+	color: #f8df00;
 }
 /* Size */
 .font-h1{
@@ -209,8 +215,14 @@ p,a,label,th,td,li{
 	background-image: url(../images/popup-bg-07.png);
 	background-color: transparent;
 	border: none;
-	padding: 100px 0 70px;
+	padding: 40px 0 70px;
 	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.modal-flavor-bg .mr-5.button-times {
+    position: absolute;
+    right: 110px;
 }
 .owl-theme .owl-nav [class*="owl-"]:hover{
     background: transparent;
@@ -301,6 +313,13 @@ p,a,label,th,td,li{
     background-image: url(../images/ornament-yellow-letter-before-footer-26.png);
     margin-bottom: -14px;
     margin-left: -32px;
+}
+.footer a:hover{
+	text-decoration: none;
+}
+.footer a span:hover{
+	color: #0530b9;
+	transition: all .3s;
 }
 .link-1.active{
 	display: none;
