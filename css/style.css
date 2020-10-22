@@ -443,7 +443,7 @@ a.menu-icon img:hover{
 		width: 205px !important;
 	}
 	.testimonial {
-	    padding-top: 18.1rem;
+	    padding-top: 16.1rem;
 		padding-bottom: 6.2rem;
 	}
 	.footer{
@@ -464,7 +464,7 @@ a.menu-icon img:hover{
 		width: 100% !important;
 	}
 	.carousel-know.owl-theme .owl-nav.disabled + .owl-dots {
-    	margin-top: 0;
+    	margin-top: 20px;
 	}
 	.modal-flavor-bg .mr-5.button-times {
 	    position: absolute;
