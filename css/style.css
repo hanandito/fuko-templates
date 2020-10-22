@@ -238,6 +238,9 @@ a.menu-icon img:hover{
 .modal-flavor-bg .mr-5.button-times:hover {
     transform: scale(1.1);
 }
+.modal-flavor-bg .height-copy{
+	height: 192px;
+}
 .owl-theme .owl-nav [class*="owl-"]:hover{
     background: transparent;
 }
@@ -480,6 +483,9 @@ a.menu-icon img:hover{
 	}
 	.carousel-know .copy-width{
 		width: 100%;
+	}
+	.modal-flavor-bg .height-copy{
+		height: 192px;
 	}
 }
 
