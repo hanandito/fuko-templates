@@ -363,6 +363,9 @@ a.menu-icon img:hover{
 	right: 40%;
 	bottom: -20px;
 }
+.carousel-know .copy-width{
+	width: 70%;
+}
 @media screen and (max-width: 846px) {
 	p, a, label, th, td, li {
 	    font-family: "Montserrat Regular";
@@ -474,6 +477,9 @@ a.menu-icon img:hover{
 	}
 	.wrapper-button-flavor.wrapper-mobile{
 		width: 60% !important;
+	}
+	.carousel-know .copy-width{
+		width: 100%;
 	}
 }
 
