@@ -369,6 +369,9 @@ a.menu-icon img:hover{
 .carousel-know .copy-width{
 	width: 70%;
 }
+.go-top img:hover{
+		transform: scale(1.1);
+}
 @media screen and (max-width: 846px) {
 	p, a, label, th, td, li {
 	    font-family: "Montserrat Regular";
