@@ -43,7 +43,7 @@ $(document).ready(function() {
     loop: true,
     responsiveClass: true,
     nav: true,
-    autoplay:true
+    autoplay:true,
     autoplayTimeout:5000,
     responsive:{
       0: {
