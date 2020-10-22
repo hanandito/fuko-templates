@@ -43,6 +43,8 @@ $(document).ready(function() {
     loop: true,
     responsiveClass: true,
     nav: true,
+    autoplay:true
+    autoplayTimeout:5000,
     responsive:{
       0: {
         items: 1,
@@ -57,7 +59,7 @@ $(document).ready(function() {
       1000: {
         items: 1,
         dots: true,
-         navText: ["<img src='images/chevron-left.png'>","<img src='images/chevron-right.png'>"],
+        navText: ["<img src='images/chevron-left.png'>","<img src='images/chevron-right.png'>"],
       }
     }
   })
