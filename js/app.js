@@ -123,10 +123,6 @@ $(document).ready(function() {
  });
  /*Animation: Moving Ornament on Scroll*/
 $(document).ready(function(){
-  // Preloader
-    $(window).on('load', () => {
-      $('.preloader').delay(5000).fadeOut();
-    })
 
 
   $(window).scroll(function(){
@@ -148,4 +144,10 @@ $(document).ready(function(){
     });
   });
 });
+
+ // Preloader
+    $(window).on('load', () => {
+      $('.preloader').delay(5000).fadeOut();
+    })
+
 
