@@ -325,6 +325,7 @@ a.menu-icon img:hover{
     background-size: cover;
     padding-top: 4rem;
     padding-bottom: 3rem;
+    background-position: bottom right;
 }
 .footer .ornament-before::before {
     content: '';
@@ -374,8 +375,24 @@ a.menu-icon img:hover{
 		transform: scale(1.1);
 }
  @media only screen
-    and (min-device-width: 1400px)
+    and (min-device-width: 1500px)
     and (max-device-width: 1550px){
+    	.fuko-bottle{
+    		right: 26%;
+    	}
+    	.choose-your-flavor {
+    		padding-top: 14rem;
+		}
+		.what-you-know {
+    		padding: 8rem 0 3rem;
+		}
+		.testimonial {
+    		padding-top: 8.7rem;
+		}
+    }
+    @media only screen
+    and (min-device-width: 1900px)
+    and (max-device-width: 2000px){
     	.fuko-bottle{
     		right: 26%;
     	}
