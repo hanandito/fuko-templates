@@ -1,6 +1,17 @@
 body{
     transition: all .3s;
     letter-spacing: 0.2px;
+    position: relative;
+}
+.preloader {
+    transition: all .3s;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    background: url("../images/preloader.gif") center no-repeat #fbfbfb;
 }
 *{
     transition: all .3s;
@@ -604,15 +615,3 @@ Animation
 	}
 }
 
-/* Preloader */
-.preloader{
-	transition: all .3s;
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100vw;
-	height: 100vh;
-	z-index: 9999;
-	background: url("../images/preloader.gif") center no-repeat #fff;
-    background-size: auto;
-}
