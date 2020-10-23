@@ -607,13 +607,12 @@ Animation
 /* Preloader */
 .preloader{
 	transition: all .3s;
-position: fixed;
-left: 0px;
-top: 0px;
-width: 100vw;
-height: 100vh;
-z-index: 9999;
-background: url(../images/okupreloader.gif) center no-repeat #fff;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 100vh;
+	z-index: 9999;
+	background: url("../images/preloader.gif") center no-repeat #fff;
     background-size: auto;
-background-size: 15%;
 }
