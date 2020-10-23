@@ -1,9 +1,4 @@
 $(document).ready(function() {
-  // Preloader
-    $(window).on('load', () => {
-      $('.preloader').delay(1000).fadeOut();
-    })
-    
     $('.nav-fuko .menu-icon').click(function() {
      $(".side-menu").addClass("active");
    })
@@ -128,6 +123,11 @@ $(document).ready(function() {
  });
  /*Animation: Moving Ornament on Scroll*/
 $(document).ready(function(){
+  // Preloader
+    $(window).on('load', () => {
+      $('.preloader').delay(5000).fadeOut();
+    })
+
 
   $(window).scroll(function(){
     windowTop = $(window).scrollTop();
@@ -148,3 +148,4 @@ $(document).ready(function(){
     });
   });
 });
+
