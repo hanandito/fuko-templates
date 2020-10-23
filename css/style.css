@@ -132,13 +132,13 @@ a.menu-icon img:hover{
     width: 100%;
 }
 .content-all-bg{
-    background-image: url(../images/background-wrapper-04-07.png);
+    background-image: url(../images/background-wrapper-04-07.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
 .parallaxed-all-bg{
-    background-image: url(../images/background-parallaxed-FIXED-01.png);
+    /*background-image: url(../images/background-parallaxed-FIXED-01.png);*/
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
