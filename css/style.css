@@ -603,3 +603,17 @@ Animation
 		position: absolute;top: 120px;left: 0;width: 50px;height: 50px;
 	}
 }
+
+/* Preloader */
+.preloader{
+	transition: all .3s;
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100vw;
+height: 100vh;
+z-index: 9999;
+background: url(../images/okupreloader.gif) center no-repeat #fff;
+    background-size: auto;
+background-size: 15%;
+}
