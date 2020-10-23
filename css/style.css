@@ -373,6 +373,22 @@ a.menu-icon img:hover{
 .go-top img:hover{
 		transform: scale(1.1);
 }
+ @media only screen
+    and (min-device-width: 1400px)
+    and (max-device-width: 1550px){
+    	.fuko-bottle{
+    		right: 26%;
+    	}
+    	.choose-your-flavor {
+    		padding-top: 14rem;
+		}
+		.what-you-know {
+    		padding: 8rem 0 3rem;
+		}
+		.testimonial {
+    		padding-top: 8.7rem;
+		}
+    }
 @media screen and (max-width: 846px) {
 	p, a, label, th, td, li {
 	    font-family: "Montserrat Regular";
