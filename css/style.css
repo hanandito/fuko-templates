@@ -424,6 +424,12 @@ a.menu-icon img:hover{
     	.bulan {
     		top: -2rem;
     	}
+    	#product_stop{
+			position: absolute;top: 640px;left: 0;width: 50px;height: 50px;
+		}
+		#about_stop{
+			position: absolute;top: 120px;left: 0;width: 50px;height: 50px;
+		}
     }
     @media only screen
     and (min-device-width: 1400px)
@@ -572,4 +578,14 @@ Animation
 }
 .owl-nav img:hover{
 	transform: scale(1.1)
+}
+
+/* Gobstopper */
+@media screen and (max-width: 846px) {
+	#product_stop{
+		position: absolute;top: 340px;left: 0;width: 50px;height: 50px;
+	}
+	#about_stop{
+		position: absolute;top: 120px;left: 0;width: 50px;height: 50px;
+	}
 }
