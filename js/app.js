@@ -96,7 +96,11 @@ $(document).ready(function() {
     // }
     // prevScrollpos = currentScrollPos;
     // }
- })
+ });
+// Preloader
+    $(window).on('load', () => {
+      $('.preloader').delay(5000).fadeOut();
+    })
  $(document).ready(function(){
    // Add smooth scrolling to all links
    $(".side-menu a, .how-to-drink a, .testimonial a").on('click', function(event) {
@@ -145,9 +149,6 @@ $(document).ready(function(){
   });
 });
 
- // Preloader
-    $(window).on('load', () => {
-      $('.preloader').delay(5000).fadeOut();
-    })
+ 
 
 
