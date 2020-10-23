@@ -392,6 +392,9 @@ a.menu-icon img:hover{
 		.matahari {
     		top: 99rem;
 		}
+		#product_stop{
+			position: absolute;top: 180px;left: 0;width: 50px;height: 50px;
+		}
     }
     @media only screen
     and (min-device-width: 1900px)
