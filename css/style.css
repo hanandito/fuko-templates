@@ -397,13 +397,17 @@ a.menu-icon img:hover{
     		right: 26%;
     	}
     	.choose-your-flavor {
-    		padding-top: 14rem;
+    		padding-top: 45rem;
 		}
 		.what-you-know {
-    		padding: 8rem 0 3rem;
+    		padding: 18rem 0 3rem;
 		}
 		.testimonial {
-    		padding-top: 8.7rem;
+    		padding-top: 12.7rem;
+			padding-bottom: 14.9rem;
+		}
+		.carousel-flavor .owl-item.active {
+    		padding: 113px 0 464px;
 		}
     }
 @media screen and (max-width: 846px) {
