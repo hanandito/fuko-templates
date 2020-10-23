@@ -249,10 +249,11 @@ a.menu-icon img:hover{
 	position: sticky;
 	top: 19rem;
 	float: right;
-	right: 25.4rem;
+	right: 27%;
 	z-index: 2;
 	margin-top: 10rem;
 	margin-bottom: 10rem;
+	transform: translateX(-50%);
 }
 .chevron-down-banner-top{
 	width: 40px;
