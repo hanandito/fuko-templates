@@ -415,10 +415,19 @@ a.menu-icon img:hover{
 		.matahari {
     		top: 99rem;
 		}
+		.how-to-drink .ornament-rumah {
+    		top: -225px;
+    	}
+    	.container.what-you-know{
+    		max-width: 1600px;
+    	}
+    	.bulan {
+    		top: -2rem;
+    	}
     }
     @media only screen
-    and (min-device-width: 1500px)
-    and (max-device-width: 1550px){
+    and (min-device-width: 1400px)
+    and (max-device-width: 1440px){
 
     }
 @media screen and (max-width: 846px) {
