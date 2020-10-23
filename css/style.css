@@ -437,7 +437,18 @@ a.menu-icon img:hover{
     @media only screen
     and (min-device-width: 1400px)
     and (max-device-width: 1440px){
-
+    	.fuko-bottle{
+    		right: 26%;
+    	}
+    	.matahari {
+		    top: 98rem;
+    	}
+    	.choose-your-flavor {
+    		padding-top: 9rem;
+		}
+		.testimonial {
+    		padding-top: 7.5rem;
+		}
     }
 @media screen and (max-width: 846px) {
 	p, a, label, th, td, li {
