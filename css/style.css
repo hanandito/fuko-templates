@@ -389,6 +389,9 @@ a.menu-icon img:hover{
 		.testimonial {
     		padding-top: 8.7rem;
 		}
+		.matahari {
+    		top: 99rem;
+		}
     }
     @media only screen
     and (min-device-width: 1900px)
@@ -409,6 +412,14 @@ a.menu-icon img:hover{
 		.carousel-flavor .owl-item.active {
     		padding: 113px 0 464px;
 		}
+		.matahari {
+    		top: 99rem;
+		}
+    }
+    @media only screen
+    and (min-device-width: 1500px)
+    and (max-device-width: 1550px){
+
     }
 @media screen and (max-width: 846px) {
 	p, a, label, th, td, li {
