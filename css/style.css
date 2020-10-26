@@ -408,6 +408,44 @@ a.menu-icon img:hover{
 		}
     }
     @media only screen
+    and (min-device-width: 1660px)
+    and (max-device-width: 1670px){
+    	.fuko-bottle{
+    		right: 26%;
+    	}
+    	.choose-your-flavor {
+    		padding-top: 45rem;
+		}
+		.what-you-know {
+    		padding: 13rem 0 3rem;
+		}
+		.testimonial {
+    		padding-top: 12.7rem;
+			padding-bottom: 14.9rem;
+		}
+		.carousel-flavor .owl-item.active {
+    		padding: 113px 0 464px;
+		}
+		.matahari {
+    		top: 113rem;
+		}
+		.how-to-drink .ornament-rumah {
+    		top: -225px;
+    	}
+    	.container.what-you-know{
+    		max-width: 1600px;
+    	}
+    	.bulan {
+    		top: -2rem;
+    	}
+    	#product_stop{
+			position: absolute;top: 640px;left: 0;width: 50px;height: 50px;
+		}
+		#about_stop{
+			position: absolute;top: 170px;left: 0;width: 50px;height: 50px;
+		}
+    }
+    @media only screen
     and (min-device-width: 1900px)
     and (max-device-width: 2000px){
     	.fuko-bottle{
