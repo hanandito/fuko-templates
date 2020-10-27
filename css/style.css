@@ -388,6 +388,9 @@ a.menu-icon img:hover{
 .go-top img:hover{
 		transform: scale(1.1);
 }
+.last-hand_2{
+	margin-right: 182px;
+}
 @media only screen
     and (min-device-width: 765px)
     and (max-device-width: 768px){
