@@ -388,7 +388,138 @@ a.menu-icon img:hover{
 .go-top img:hover{
 		transform: scale(1.1);
 }
+@media only screen
+    and (min-device-width: 765px)
+    and (max-device-width: 768px){
+    	p, a, label, th, td, li {
+	    font-family: "Montserrat Regular";
+	    font-size: 10px;
+	    line-height: 24px;
+		}
+		.font-h1 {
+	    	font-size: 1.7rem;
+		}
+		.font-4rem {
+	    		font-size: 2.7rem;
+		}
+		.font-3rem {
+	    	font-size: 2rem;
+		}
+		.nav-fuko .bg-logo-nav {
+			max-width: 100%;
+			height: 83px;
+			width: 121px;
+		}
+		.how-to-drink .ornament-rumah {
+		    position: absolute;
+			top: -121px;
+			z-index: 4;
+			left: -30px;
+			width: 270px;
+		}
+		.chevron-down-banner-top {
+		    width: 28px;
+		    position: relative;
+		    z-index: 4;
+		}
+		.what-you-know .left-desc {
+	    	padding: 0 0;
+		}
+		.content-all-bg {
+			background-image: none;
+		}
+		.parallaxed-all-bg{
+			background-image: url(../images/background-wrapper-mobile-04-01.jpg);
+		}
+		.choose-your-flavor {
+		    padding-top: 27.4rem;
+		    padding-bottom: 6.3rem;
+		}
+		.wrapper-button-get{
+			width: 230px;
+		}
+		.arrow-carousel-flavor{
+			width: 60%;
+		}
+		.modal-flavor-bg{
+			background-image: url(../images/popup-bg-mobile-05.png);
+		}
+		.modal-flavor-bg .button-times{
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		.modal-flavor-bg .img-content{
+			width: 50%;
+			margin: auto;
+			display: block;
+		}
+		.modal-flavor-bg .wrapper-button-flavor img{
+			width: 16px;
+		}
+		.wrapper-button-flavor {
+		    width: 76%;
+		}
+		.carousel-flavor .border-yellow{
+			width: 130px !important;
+		}
+		.carousel-know .border-yellow{
+			width: 205px !important;
+		}
+		.testimonial {
+		    padding-top: 16.1rem;
+			padding-bottom: 6.2rem;
+		}
+		.footer{
+			background-image: url(../images/footer-bg-mobile-05.jpg);
+			background-size: cover;
+			padding-bottom: 0;
+		}
+		.footer .border-yellow{
+			width: 190px;
+		}
+		.what-you-know {
+	    	padding: 18rem 0 1.3rem;
+		}
+		.carousel-flavor .owl-item.active, .carousel-flavor .owl-item {
+	    	padding: 70px 0 186px;
+		}
+		.carousel-flavor .owl-item.active:not(.center) .img-content{
+			width: 100% !important;
+		}
+		.carousel-know.owl-theme .owl-nav.disabled + .owl-dots {
+	    	margin-top: 20px;
+		}
+		.modal-flavor-bg .mr-5.button-times {
+		    position: absolute;
+			right: 19px;
+			width: 40px;
+			top: -10px;
+		}
+		.go-top img{
+			width: 40px;
+		}
+		.wrapper-button-flavor.wrapper-mobile{
+			width: 60% !important;
+		}
+		.carousel-know .copy-width{
+			width: 100%;
+		}
+		.modal-flavor-bg .height-copy{
+			height: 192px;
+		}
+		#product_stop{
+			position: absolute;top: 340px;left: 0;width: 50px;height: 50px;
+		}
+		#about_stop{
+			position: absolute;top: 120px;left: 0;width: 50px;height: 50px;
+		}
+		.how-to-drink .carousel-mobile-how{
+			width: 60%;
+			margin: 200px auto;
+		}
 
+}
 @media screen and (max-width: 414px) {
 	p, a, label, th, td, li {
 	    font-family: "Montserrat Regular";
