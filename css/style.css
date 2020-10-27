@@ -147,9 +147,10 @@ a.menu-icon img:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    min-height: 605vh;
+    width: 100%;
 }
 .parallaxed-all-bg{
-    /*background-image: url(../images/background-parallaxed-FIXED-01.png);*/
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
