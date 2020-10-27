@@ -121,6 +121,9 @@ a .text-blue:hover{
     border-bottom: 4px solid #fff;
     text-decoration: none;
 }
+.button-close img:hover{
+	transform: scale(1.1);
+}
 /* Page Setup */
 a.menu-icon img:hover{
 	transform: scale(1.1);
