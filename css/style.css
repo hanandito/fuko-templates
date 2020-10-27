@@ -143,7 +143,7 @@ a.menu-icon img:hover{
     width: 100%;
 }
 .content-all-bg{
-    background-image: url(../images/background-wrapper-04-07.jpg);
+    background-image: url(../images/background-wrapper-resized.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -409,7 +409,7 @@ a.menu-icon img:hover{
     }
     @media only screen
     and (min-device-width: 1660px)
-    and (max-device-width: 1670px){
+    and (max-device-width: 1690px){
     	.fuko-bottle{
     		right: 26%;
     	}
