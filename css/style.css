@@ -387,7 +387,7 @@ a.menu-icon img:hover{
 }
  @media only screen
     and (min-device-width: 1500px)
-    and (max-device-width: 2600px){
+    and (max-device-width: 1550px){
     	.fuko-bottle{
     		right: 26%;
     	}
@@ -409,7 +409,7 @@ a.menu-icon img:hover{
     }
     @media only screen
     and (min-device-width: 1660px)
-    and (max-device-width: 1670px){
+    and (max-device-width: 1680px){
     	.fuko-bottle{
     		right: 26%;
     	}
