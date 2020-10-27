@@ -387,7 +387,7 @@ a.menu-icon img:hover{
 }
  @media only screen
     and (min-device-width: 1500px)
-    and (max-device-width: 1550px){
+    and (max-device-width: 2600px){
     	.fuko-bottle{
     		right: 26%;
     	}
