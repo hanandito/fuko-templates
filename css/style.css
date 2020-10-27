@@ -467,8 +467,8 @@ a.menu-icon img:hover{
 			width: 205px !important;
 		}
 		.testimonial {
-		    padding-top: 16.1rem;
-			padding-bottom: 6.2rem;
+		    padding-top: 42rem;
+			padding-bottom: 15.2rem;
 		}
 		.footer{
 			background-image: url(../images/footer-bg-mobile-05.jpg);
@@ -479,10 +479,17 @@ a.menu-icon img:hover{
 			width: 190px;
 		}
 		.what-you-know {
-	    	padding: 18rem 0 1.3rem;
+	    	padding: 52rem 0 1.3rem;
 		}
 		.carousel-flavor .owl-item.active, .carousel-flavor .owl-item {
-	    	padding: 70px 0 186px;
+	    	padding: 460px 0 500px;
+		}
+		.carousel-flavor .owl-item img{
+			width: 40%;
+			left: 50%;
+			transform: translateX(-50%);
+			position: absolute;
+			top: 35px;
 		}
 		.carousel-flavor .owl-item.active:not(.center) .img-content{
 			width: 100% !important;
