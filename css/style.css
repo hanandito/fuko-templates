@@ -385,120 +385,7 @@ a.menu-icon img:hover{
 .go-top img:hover{
 		transform: scale(1.1);
 }
- @media only screen
-    and (min-device-width: 1500px)
-    and (max-device-width: 1550px){
-    	.fuko-bottle{
-    		right: 26%;
-    	}
-    	.choose-your-flavor {
-    		padding-top: 14rem;
-		}
-		.what-you-know {
-    		padding: 8rem 0 3rem;
-		}
-		.testimonial {
-    		padding-top: 8.7rem;
-		}
-		.matahari {
-    		top: 99rem;
-		}
-		#product_stop{
-			position: absolute;top: 180px;left: 0;width: 50px;height: 50px;
-		}
-    }
-    @media only screen
-    and (min-device-width: 1680px)
-    and (max-device-width: 1690px){
-    	.fuko-bottle{
-    		right: 26%;
-    	}
-    	.choose-your-flavor {
-    		padding-top: 45rem;
-		}
-		.what-you-know {
-    		padding: 13rem 0 3rem;
-		}
-		.testimonial {
-    		padding-top: 12.7rem;
-			padding-bottom: 14.9rem;
-		}
-		.carousel-flavor .owl-item.active {
-    		padding: 113px 0 464px;
-		}
-		.matahari {
-    		top: 113rem;
-		}
-		.how-to-drink .ornament-rumah {
-    		top: -225px;
-    	}
-    	.container.what-you-know{
-    		max-width: 1600px;
-    	}
-    	.bulan {
-    		top: -2rem;
-    	}
-    	#product_stop{
-			position: absolute;top: 640px;left: 0;width: 50px;height: 50px;
-		}
-		#about_stop{
-			position: absolute;top: 170px;left: 0;width: 50px;height: 50px;
-		}
-    }
-    @media only screen
-    and (min-device-width: 1900px)
-    and (max-device-width: 2000px){
-    	.fuko-bottle{
-    		right: 26%;
-    	}
-    	.choose-your-flavor {
-    		padding-top: 45rem;
-		}
-		.what-you-know {
-    		padding: 13rem 0 3rem;
-		}
-		.testimonial {
-    		padding-top: 12.7rem;
-			padding-bottom: 14.9rem;
-		}
-		.carousel-flavor .owl-item.active {
-    		padding: 113px 0 464px;
-		}
-		.matahari {
-    		top: 113rem;
-		}
-		.how-to-drink .ornament-rumah {
-    		top: -225px;
-    	}
-    	.container.what-you-know{
-    		max-width: 1600px;
-    	}
-    	.bulan {
-    		top: -2rem;
-    	}
-    	#product_stop{
-			position: absolute;top: 640px;left: 0;width: 50px;height: 50px;
-		}
-		#about_stop{
-			position: absolute;top: 170px;left: 0;width: 50px;height: 50px;
-		}
-    }
-    @media only screen
-    and (min-device-width: 1400px)
-    and (max-device-width: 1440px){
-    	.fuko-bottle{
-    		right: 26%;
-    	}
-    	.matahari {
-		    top: 98rem;
-    	}
-    	.choose-your-flavor {
-    		padding-top: 9rem;
-		}
-		.testimonial {
-    		padding-top: 7.5rem;
-		}
-    }
+
 @media screen and (max-width: 846px) {
 	p, a, label, th, td, li {
 	    font-family: "Montserrat Regular";
@@ -652,4 +539,121 @@ Animation
 		position: absolute;top: 120px;left: 0;width: 50px;height: 50px;
 	}
 }
-
+ @media only screen
+    and (min-device-width: 1500px)
+    and (max-device-width: 1550px){
+    	.fuko-bottle{
+    		right: 26%;
+    	}
+    	.choose-your-flavor {
+    		padding-top: 14rem;
+		}
+		.what-you-know {
+    		padding: 8rem 0 3rem;
+		}
+		.testimonial {
+    		padding-top: 8.7rem;
+		}
+		.matahari {
+    		top: 99rem;
+		}
+		#product_stop{
+			position: absolute;top: 180px;left: 0;width: 50px;height: 50px;
+		}
+    }
+    @media only screen
+    and (min-device-width: 1680px)
+    and (max-device-width: 1690px){
+    	.fuko-bottle{
+    		right: 26%;
+    	}
+    	.how-to-drink{
+    		padding-bottom: 100px;
+		}
+    	.choose-your-flavor {
+    		padding-top: 27rem;
+			padding-bottom: 6rem;
+		}
+		.what-you-know {
+		    padding: 3rem 0 11rem;
+		}
+		.testimonial {
+		    padding-top: 12.7rem;
+		    padding-bottom: 0;
+		}
+		.carousel-flavor .owl-item.active {
+    		padding: 113px 0 464px;
+		}
+		.matahari {
+    		top: 113rem;
+		}
+		.how-to-drink .ornament-rumah {
+    		top: -225px;
+    	}
+    	.container.what-you-know{
+    		max-width: 1600px;
+    	}
+    	.bulan {
+    		top: 22rem;
+    	}
+    	#product_stop{
+			position: absolute;top: 640px;left: 0;width: 50px;height: 50px;
+		}
+		#about_stop{
+			position: absolute;top: 170px;left: 0;width: 50px;height: 50px;
+		}
+    }
+    @media only screen
+    and (min-device-width: 1900px)
+    and (max-device-width: 2000px){
+    	.fuko-bottle{
+    		right: 26%;
+    	}
+    	.choose-your-flavor {
+    		padding-top: 45rem;
+		}
+		.what-you-know {
+    		padding: 13rem 0 3rem;
+		}
+		.testimonial {
+    		padding-top: 12.7rem;
+			padding-bottom: 14.9rem;
+		}
+		.carousel-flavor .owl-item.active {
+    		padding: 113px 0 464px;
+		}
+		.matahari {
+    		top: 113rem;
+		}
+		.how-to-drink .ornament-rumah {
+    		top: -225px;
+    	}
+    	.container.what-you-know{
+    		max-width: 1600px;
+    	}
+    	.bulan {
+    		top: -2rem;
+    	}
+    	#product_stop{
+			position: absolute;top: 640px;left: 0;width: 50px;height: 50px;
+		}
+		#about_stop{
+			position: absolute;top: 170px;left: 0;width: 50px;height: 50px;
+		}
+    }
+    @media only screen
+    and (min-device-width: 1400px)
+    and (max-device-width: 1440px){
+    	.fuko-bottle{
+    		right: 26%;
+    	}
+    	.matahari {
+		    top: 98rem;
+    	}
+    	.choose-your-flavor {
+    		padding-top: 9rem;
+		}
+		.testimonial {
+    		padding-top: 7.5rem;
+		}
+    }
